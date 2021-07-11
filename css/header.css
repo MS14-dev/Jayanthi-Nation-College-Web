@@ -1,0 +1,86 @@
+#header_logo{
+    width: 50px;
+    height: auto;
+    margin-left: 20%;
+}
+#header_header{
+    background-color: rgba(0, 0, 0, 0.322);
+}
+#header_navbar{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+}
+#header_sms_img{
+    width: 20%;
+    height: 20%;
+}
+.header_menu_items{
+    width: 20%;
+}
+#header_sms_txt{
+    color: #00FF00;
+}
+
+/* index.php styles....................................*/
+#index_carousel{
+    background-image: url('../images/large.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: carousel_animation 10s infinite linear; 
+    animation-direction: alternate;
+}
+@keyframes carousel_animation{
+    50%{
+        background-image: url('../images/freestocks-r_oV6smBBYk-unsplash.jpg');
+    }
+    75%{
+        background-image: url('../images/large.jpg');
+    }
+    100%{
+        background-image: url('../images/freestocks-r_oV6smBBYk-unsplash.jpg');
+        
+    }
+}
+.index_title_div{
+    text-align: center;
+    position: relative;
+    top: 45%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+.index_title_div h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index_mission {
+    background-color: #A93226;
+    border: 10px solid white;
+    color: #F1C40F;
+    border-right: 20px solid white;
+    padding: 5%;
+    text-align: center;
+}
+.index_mission p ,.index_vision p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.index_vision {
+    background-color: #F1C40F;
+    border: 10px solid white;
+    color: #A93226;
+    padding: 5%;
+    text-align: center;
+}
+#index_principal_img{
+    width: 50%;
+}
+.index_principal_img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+}
