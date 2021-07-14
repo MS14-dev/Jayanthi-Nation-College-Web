@@ -1,6 +1,32 @@
 <?php
 require_once('components/header.php');
+require_once('database/connection.php');
 ?>
+
+<?php
+
+    $query = "SELECT*FROM news";
+
+    $result = mysqli_query($connection, $query);
+
+    if (isset($result)) {
+        $result_set = mysqli_fetch_all($result);
+        //[[id=1,title=xxxx,body=xxxx],[id=2,body,title]]
+        
+        // $id = $result_set[0][0];
+        // $title = $result_set[0][1];
+        // $body = $result_set[0][2];
+        // $image = $result_set[0][3];
+        //echo print_r($result_set);
+        //echo $title;
+        
+
+    }else{
+        echo "query of fetching news is failed";
+    }
+
+?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12" id="index_carousel">
@@ -27,7 +53,7 @@ require_once('components/header.php');
 <br><br>
 <div class="container">
     <div class="row">
-        <div class="index_principal_img col-md-4">
+        <div class="index_principal_img_div col-md-4">
             <img id="index_principal_img" src="./images/principal.png" alt="principal">
         </div>
         <div class="index_principal_msg col-md-8">
@@ -36,3 +62,34 @@ require_once('components/header.php');
         </div>
     </div>
 </div>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-12">
+            <h2>News</h2>
+        </div>
+        <br><br><br>
+        
+        <div style="display:flex; flex-direction: row;overflow:auto">
+        <?php foreach($result_set as $result){
+
+            echo "<div class='index_news row col-md-12'>";
+            echo "    <div class='col-md-4'>";
+            echo "        <img id='index_news_img' src='$result[3]' alt='event image'>";
+            echo "    </div>";
+            echo "  <div class='col-md-8'>";
+            echo "        <h5 style='border-top:20px solid rgba(0, 0, 0,0)'>$result[1]</h5><br/>";
+            echo        "<p> $result[2] </p>";
+            echo '    </div>';
+            echo '</div>';
+        }?>
+        </div>
+    
+    </div>
+
+</div>
+
+<?php require_once("components/footer.php");?>
+
