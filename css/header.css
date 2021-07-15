@@ -2,6 +2,10 @@
     width: 50px;
     height: auto;
     margin-left: 20%;
+    border-bottom: 2px solid #A93226;
+    border-right: 2px solid #A93226;
+    border-top: 2px solid #F1C40F;
+    border-left: 2px solid #F1C40F;
 }
 #header_header{
     background-color: rgba(0, 0, 0, 0.322);

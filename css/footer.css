@@ -2,4 +2,9 @@
     background-image: url("../images/footer.png");
     background-position: center;
     height: 25vh;
+}#footer_logo{
+    float: right;
+    width: 20%;
+    height: 80%;
+    margin-top: auto;
 }

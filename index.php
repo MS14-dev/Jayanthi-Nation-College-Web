@@ -64,6 +64,9 @@ require_once('database/connection.php');
 </div>
 <br/>
 <br/>
+
+<br/>
+<br/>
 <div class="container">
     <div class="row">
         
@@ -72,24 +75,32 @@ require_once('database/connection.php');
         </div>
         <br><br><br>
         
-        <div style="display:flex; flex-direction: row;overflow:auto">
-        <?php foreach($result_set as $result){
+        <div class="cycle-slideshow composite-example" 
+             data-cycle-fx="scrollHorz" 
+             data-cycle-slides="> div"
+             data-cycle-timeout="2000"
+             data-cycle-pause-on-hover="true"
+             style="height:500px;z-index:0">
+          <?php foreach($result_set as $result){
 
-            echo "<div class='index_news row col-md-12'>";
+            echo "<div class='index_news col-md-12'>";
+            //echo "<div class='index_news row col-md-12'>";
+            echo "<div class='index_news row'>";
             echo "    <div class='col-md-4'>";
             echo "        <img id='index_news_img' src='$result[3]' alt='event image'>";
             echo "    </div>";
-            echo "  <div class='col-md-8'>";
-            echo "        <h5 style='border-top:20px solid rgba(0, 0, 0,0)'>$result[1]</h5><br/>";
+            echo "    <div class='col-md-8'>";
+            echo "       <h5 style='border-top:20px solid rgba(0, 0, 0,0)'>$result[1]</h5><br/>";
             echo        "<p> $result[2] </p>";
             echo '    </div>';
+            echo '    </div>';
             echo '</div>';
-        }?>
+            
+          }?>
         </div>
     
     </div>
 
 </div>
-
 <?php require_once("components/footer.php");?>
 
