@@ -26,7 +26,11 @@ require_once('database/connection.php');
     }
 
 ?>
-
+<!-- Animation start -->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<!-- Animation end -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12" id="index_carousel">
@@ -41,12 +45,16 @@ require_once('database/connection.php');
     <br>
     <div class="row">
         <div class="index_mission col-md-4">
-            <center><h4><b>MISSION</b></h4></center><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio mollitia repudiandae quos numquam voluptates quidem! Eligendi enim sapiente nemo sit sint, id quod fuga?!</p>
+            <center><h4><b>දැක්ම</b></h4></center><br>
+            <p>ගුණ නුවණින් පිරි යහපත් දරු පිරිසක් බිහි කිරීම</p>
+            <center><h4><b>VISION</b></h4></center><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi vitae aspernatur accusamus exercitationem facilis doloribus asperiores mollitia est id eligendi.</p>
         </div>
         <div class="index_vision col-md-8">
-            <center><h4><b>VISION</b></h4></center><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque, perferendis officiis blanditiis consequuntur, modi suscipit laboriosam natus nobis voluptatibus sed amet corporis in accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quo voluptatem error architecto saepe debitis suscipit sit labore exercitationem expedita?</p>
+            <center><h4><b>මෙහෙවර</b></h4></center><br>
+            <p>නිදහස් නිවහල් මත දරණ නිර්මාණශීලී වූත්, කාර්යක්ෂම වූත්, ඵලදායී වූත්,  ධනාත්මක ආකල්පවලින් හෙබි, සම්පත් දායකයින් පිරිසක් බිහිකර, ඔවුන් රටේ සංවර්ධනයට දායක කරවීමයි.</p>
+            <center><h4><b>MISSION</b></h4></center><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt, asperiores eaque aliquam sapiente sequi neque fugiat nemo iure ratione?</p>
         </div>
     </div>
 </div>
@@ -102,5 +110,7 @@ require_once('database/connection.php');
     </div>
 
 </div>
+
 <?php require_once("components/footer.php");?>
+
 

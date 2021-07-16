@@ -1,12 +1,5 @@
-$(document).ready(()=>{
-    $('.hello').click(()=>{
-       var val = this.val();
-       alert (val);
-    })
-})
+$(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+});
 
 
-//jQuery Structure
-//$(specific_element).action_whatever
-
-// style="display:flex; flex-direction: row;overflow:auto">
