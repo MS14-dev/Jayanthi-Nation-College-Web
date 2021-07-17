@@ -1,22 +1,22 @@
 /* index.php styles....................................*/
 #index_carousel{
-    background-image: url('../images/large.jpg');
+    background-image: url('../images/back_1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: carousel_animation 10s infinite linear; 
+    animation: carousel_animation 30s infinite linear; 
     animation-direction: alternate;
 }
 @keyframes carousel_animation{
     50%{
-        background-image: url('../images/freestocks-r_oV6smBBYk-unsplash.jpg');
+        background-image: url('../images/back_2.jpg');
     }
     75%{
-        background-image: url('../images/large.jpg');
+        background-image: url('../images/back_4.jpg');
     }
     100%{
-        background-image: url('../images/freestocks-r_oV6smBBYk-unsplash.jpg');
+        background-image: url('../images/back_3.jpg');
         
     }
 }
@@ -30,6 +30,12 @@
 }
 .index_title_div h3{
     font-family: Arial, Helvetica, sans-serif;
+}
+.index_title_div h4{
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #F1C40F; */
+    font-weight: bolder;
+    /* background-color: #A93226; */
 }
 .index_mission {
     background-color: #A93226;
@@ -53,7 +59,8 @@
 #index_principal_img{
     width: 50%;
     border: 1px solid black;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    /* border-radius: 90%; */
 }
 .index_principal_img_div{
     justify-content: center;

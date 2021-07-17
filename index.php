@@ -35,8 +35,9 @@ require_once('database/connection.php');
     <div class="row">
         <div class="col-md-12" id="index_carousel">
             <div class="index_title_div">
-                <h1 >Chandrikawewa Jayanthi College</h1>
-                <h3>Motto here</h3>
+                <h1 >Chandrikawewa Jayanthi National College</h1>
+                <h3>Padalangala</h3>
+                <h4>අසව|දරව|හැසිරෙව</h4>
             </div>
         </div>
     </div>
@@ -62,10 +63,11 @@ require_once('database/connection.php');
 <div class="container">
     <div class="row">
         <div class="index_principal_img_div col-md-4">
-            <img id="index_principal_img" src="./images/principal.png" alt="principal">
+            <img id="index_principal_img" src="./images/principal.jpg" alt="principal">
         </div>
         <div class="index_principal_msg col-md-8">
             <h5>Principal's Message</h5><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, placeat. Consequuntur, commodi illo error nisi minima molestias similique, officia repellat perspiciatis qui corrupti soluta temporibus at. Fuga a nam fugiat sint aliquid perspiciatis quaerat voluptatibus mollitia ipsam nostrum cum, animi perferendis molestias quos expedita modi iusto blanditiis ex eveniet quod.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, placeat. Consequuntur, commodi illo error nisi minima molestias similique, officia repellat perspiciatis qui corrupti soluta temporibus at. Fuga a nam fugiat sint aliquid perspiciatis quaerat voluptatibus mollitia ipsam nostrum cum, animi perferendis molestias quos expedita modi iusto blanditiis ex eveniet quod.</p>
         </div>
     </div>
