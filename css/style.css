@@ -1,0 +1,98 @@
+    body {
+        font-family: 'Prata', serif;
+    }
+    /* about us */
+    
+    .abt-text {
+        margin-top: 220px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #a83226;
+    }
+    
+    .right-sec {
+        background-color: #f1c40f07;
+    }
+    
+    .abt_img {
+        height: 50vh;
+    }
+    
+    .principle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    
+    #badge {
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #f1c40f;
+    }
+    
+    a {
+        color: #a83226;
+        text-decoration: none;
+    }
+    
+    .selected {
+        background-color: #a83226;
+        padding: 5px;
+    }
+    /* history page */
+    
+    .history-text {
+        top: 40%;
+        text-align: center;
+        color: white;
+    }
+    
+    .history-h {
+        font-size: 50px;
+    }
+    
+    .full {
+        background-color: #f1c40f07;
+    }
+    
+    #history-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* contact us */
+    
+    .map {
+        margin-top: 8px;
+    }
+    
+    .card-body {
+        font-size: 20px;
+    }
+    /* achivements */
+    .odd{
+        background-color: #f1c40f49;
+        border: none;
+    }
+    .even{
+        background-color: #a8332656;
+        border: none;
+    }
+    /* Gallery */
+.img_width:hover{
+width: 550px;
+height: 1000px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+    
+    }

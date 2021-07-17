@@ -27,10 +27,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js" integrity="sha512-lvcHFfj/075LnEasZKOkj1MF6aLlWtmpFEyd/Kc+waRnlulG5er/2fEBA5DBff4BZrcwfvnft0PiAv4cIpkjpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/script.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
 
 
 </head>
@@ -38,35 +38,34 @@
     
         <nav class="navbar navbar-dark  navbar-expand-lg " id="header_navbar" >
         <div class="container-fluid" >
-            <a class="navbar-brand" href="../index.php"><img src="../images/logo.png" alt="logo" id="header_logo"></a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo" id="header_logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
             <div  style="margin-left:50%"class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul  class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <li class="nav-item header_menu_items">
-                <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
+            <li class="nav-item header_menu_items">
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="../about_us/about.php">About Us</a>
+                <a class="nav-link" href="about_us/about.php">About Us</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="../facilities/Mahinda.php">Facilities</a>
+                <a class="nav-link" href="facilities/Mahinda.php">Facilities</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="../contact/contact.php">Contacts</a>
+                <a class="nav-link" href="contact/contact.php">Contacts</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="../History/history.php">History</a>
+                <a class="nav-link" href="History/history.php">History</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="../societies/cadet.php">Societies</a>
+                <a class="nav-link" href="societies/cadet.php">Societies</a>
                 </li>
                 <li class="nav-item header_menu_items">
-                <a class="nav-link" href="#" id="header_sms_txt"><img id="header_sms_img" src="../images/sms.png" alt="sms">&nbsp; sms</a>
+                <a class="nav-link" href="#" id="header_sms_txt"><img id="header_sms_img" src="images/sms.png" alt="sms">&nbsp; sms</a>
                 </li>
-                
             </ul>
             
             </div>

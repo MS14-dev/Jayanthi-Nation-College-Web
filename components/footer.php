@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                   <img id='footer_logo' src='./images/logo.jpg'/>
+                   <img id='footer_logo' src='./images/logo.png'/>
                 </div>
             </div>
         </div>
